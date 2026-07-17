@@ -50,7 +50,7 @@ Ensure the compiled executable file (`bunny_burnout.elf`) and your `Images` fold
 #### Method A: Playing on a Real PS2 Console (Via USB)
 
 1. Format a standard USB flash drive to **FAT32**.
-2. Drop the `bunny_burnout.elf` file and the accompanying `Images` folder directly onto the root of your USB drive.
+2. Drop the `bunny_maloney_watchon.elf` file and the accompanying `Images` folder directly onto the root of your USB drive.
 3. Plug the USB drive into your PlayStation 2.
 4. Boot up your console and launch **uLaunchELF** (via FreeMcBoot, MechPawn, or a homebrew disc).
 5. Navigate to `mass:/` (this is your USB drive).
@@ -61,7 +61,7 @@ Ensure the compiled executable file (`bunny_burnout.elf`) and your `Images` fold
 1. Open up your **PCSX2** emulator.
 2. Before anything, go to Settings, Emulation and tick the box "Enable Host Filesystem" in order to get the textures working from the ELF, otherwise nothing will show or the application will be incomplete!
 3. Now go to **System > Start File** (or File > Open ELF depending on your emulator version).
-. Select the `bunny_burnout.elf` file on your computer.
+. Select the `bunny_maloney_watchon.elf` file on your computer.
 . The emulator will automatically read the `Images/` folder from the same directory on your PC and boot the application instantly.
 
 ---
