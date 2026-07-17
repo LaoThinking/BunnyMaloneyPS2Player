@@ -23,7 +23,7 @@ Ensure the compiled executable file (`bunny_burnout.elf`) and your `Images` fold
 
 ```text
 📦 Bunny Maloney Watchon PS2/
- ┣ 📜 bunny_burnout.elf
+ ┣ 📜 bunny_maloney_watchon.elf
  ┗ 📂 Images/
    ┣ 📜 logo.bmp
    ┣ 📜 test_bar.bmp
@@ -59,9 +59,10 @@ Ensure the compiled executable file (`bunny_burnout.elf`) and your `Images` fold
 #### Method B: Playing Locally on PC (Via PCSX2 Emulator)
 
 1. Open up your **PCSX2** emulator.
-2. Go to **System > Start File** (or File > Open ELF depending on your emulator version).
-3. Select the `bunny_burnout.elf` file on your computer.
-4. The emulator will automatically read the `Images/` folder from the same directory on your PC and boot the application instantly.
+2. Before anything, go to Settings, Emulation and tick the box "Enable Host Filesystem" in order to get the textures working from the ELF, otherwise nothing will show or the application will be incomplete!
+3. Now go to **System > Start File** (or File > Open ELF depending on your emulator version).
+. Select the `bunny_burnout.elf` file on your computer.
+. The emulator will automatically read the `Images/` folder from the same directory on your PC and boot the application instantly.
 
 ---
 
