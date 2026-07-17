@@ -54,7 +54,7 @@ Ensure the compiled executable file (`bunny_burnout.elf`) and your `Images` fold
 3. Plug the USB drive into your PlayStation 2.
 4. Boot up your console and launch **uLaunchELF** (via FreeMcBoot, MechPawn, or a homebrew disc).
 5. Navigate to `mass:/` (this is your USB drive).
-6. Select and launch `bunny_burnout.elf` to start the app!
+6. Select and launch `bunny_maloney_watchon.elf` to start the app!
 
 #### Method B: Playing Locally on PC (Via PCSX2 Emulator)
 
@@ -63,19 +63,6 @@ Ensure the compiled executable file (`bunny_burnout.elf`) and your `Images` fold
 3. Now go to **System > Start File** (or File > Open ELF depending on your emulator version).
 . Select the `bunny_maloney_watchon.elf` file on your computer.
 . The emulator will automatically read the `Images/` folder from the same directory on your PC and boot the application instantly.
-
----
-
-## 🕹️ Controls
-
-The app uses standard PlayStation 2 DualShock 2 controller inputs:
-
-| Button | Action |
-| --- | --- |
-| **D-Pad Up / Down** | Navigate menu options and browse up/down through the 52 episodes. |
-| **Cross (❌)** | Confirm menu selection, open submenus, or play selections. |
-| **Triangle (🔺) / Circle (⭕)** | Go back to the previous screen (e.g., exit Episode Menu back to Main Menu). |
-| **Start** | Skip past the intro loading bar timeline or pass the Title Splash Screen. |
 
 ---
 
